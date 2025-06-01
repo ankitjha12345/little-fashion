@@ -6,10 +6,12 @@ dependencies:
     - field.field.paragraph.little_fashion_items.field_description
     - field.field.paragraph.little_fashion_items.field_image
     - field.field.paragraph.little_fashion_items.field_tab
+    - field.field.paragraph.little_fashion_items.field_youtube
     - image.style.thumbnail
     - paragraphs.paragraphs_type.little_fashion_items
   module:
     - image
+    - link
     - text
 id: paragraph.little_fashion_items.default
 targetEntityType: paragraph
@@ -41,6 +43,14 @@ content:
     settings:
       size: 60
       placeholder: ''
+    third_party_settings: {  }
+  field_youtube:
+    type: link_default
+    weight: 4
+    region: content
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
     third_party_settings: {  }
 hidden:
   created: true

@@ -1,0 +1,10 @@
+uuid: 0952fa8c-5a0d-4d65-ba83-7f019183ab2d
+langcode: en
+status: true
+dependencies: {  }
+id: retail_owners
+label: 'Retail owners'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

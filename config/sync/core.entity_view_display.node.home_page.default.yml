@@ -4,6 +4,7 @@ status: true
 dependencies:
   config:
     - field.field.node.home_page.field_little_fashion
+    - field.field.node.home_page.field_retail_owners
     - field.field.node.home_page.field_slideshow
     - node.type.home_page
   module:
@@ -22,6 +23,15 @@ content:
       link: ''
     third_party_settings: {  }
     weight: 1
+    region: content
+  field_retail_owners:
+    type: entity_reference_revisions_entity_view
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 2
     region: content
   field_slideshow:
     type: entity_reference_revisions_entity_view

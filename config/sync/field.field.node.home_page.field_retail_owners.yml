@@ -1,0 +1,43 @@
+uuid: 09893b67-a1e2-491f-bbe3-b187830d1f7b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_retail_owners
+    - node.type.home_page
+    - paragraphs.paragraphs_type.retail_owners
+  module:
+    - entity_reference_revisions
+id: node.home_page.field_retail_owners
+field_name: field_retail_owners
+entity_type: node
+bundle: home_page
+label: 'Retail owners'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      retail_owners: retail_owners
+    negate: 0
+    target_bundles_drag_drop:
+      little_fashion:
+        weight: 6
+        enabled: false
+      little_fashion_items:
+        weight: 7
+        enabled: false
+      retail_owners:
+        weight: 8
+        enabled: true
+      slideshow:
+        weight: 9
+        enabled: false
+      slideshow_items:
+        weight: 10
+        enabled: false
+field_type: entity_reference_revisions

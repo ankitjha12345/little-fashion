@@ -84,7 +84,13 @@
 
                             <div class="row">
                             <div class="col-lg-7 col-12">
+                                {% if file_url(item.entity.field_image.entity.fileuri) %}
                                 <img src="{{ file_url(item.entity.field_image.entity.fileuri) }}" class="img-fluid" alt="">
+                                {% else %}
+                                <div class="ratio ratio-16x9">
+                                <iframe src="{{ item.entity.field_youtube.uri }}" title="{{item.entity.field_youtube.title}}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                </div>
+                                {% endif %}
                             </div>
 
                             <div class="col-lg-5 col-12">

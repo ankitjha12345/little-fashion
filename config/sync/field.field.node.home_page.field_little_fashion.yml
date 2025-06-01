@@ -31,6 +31,9 @@ settings:
       little_fashion_items:
         weight: 6
         enabled: false
+      retail_owners:
+        weight: 8
+        enabled: false
       slideshow:
         weight: 7
         enabled: false

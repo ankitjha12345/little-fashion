@@ -1,0 +1,47 @@
+uuid: 4c845290-0967-41a4-a9f6-c1a85b568389
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.retail_owners.field_description
+    - field.field.paragraph.retail_owners.field_image
+    - field.field.paragraph.retail_owners.field_title
+    - image.style.thumbnail
+    - paragraphs.paragraphs_type.retail_owners
+  module:
+    - image
+    - text
+id: paragraph.retail_owners.default
+targetEntityType: paragraph
+bundle: retail_owners
+mode: default
+content:
+  field_description:
+    type: text_textarea_with_summary
+    weight: 3
+    region: content
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+      show_summary: false
+    third_party_settings: {  }
+  field_image:
+    type: image_image
+    weight: 2
+    region: content
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+  field_title:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true
