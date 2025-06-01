@@ -1,0 +1,23 @@
+uuid: 838e8fec-3ec7-48ba-98c6-7e2e11d4575d
+langcode: en
+status: false
+dependencies:
+  module:
+    - node
+  theme:
+    - little_fashion
+_core:
+  default_config_hash: 0gq3VPg-_UM69FCCWurLFIrrnIjC2HLKhwo9iQNtcUo
+id: little_fashion_syndicate
+theme: little_fashion
+region: primary_menu
+weight: 0
+provider: null
+plugin: node_syndicate_block
+settings:
+  id: node_syndicate_block
+  label: 'RSS feed'
+  label_display: '0'
+  provider: node
+  block_count: 10
+visibility: {  }

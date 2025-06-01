@@ -1,0 +1,20 @@
+uuid: e72961a1-a212-4344-a647-ce18062db97d
+langcode: en
+status: false
+dependencies:
+  theme:
+    - little_fashion
+_core:
+  default_config_hash: Q9_2whdOj1YIomfvsIfopROW4FT_X5pY0DjdOiOaQ5U
+id: little_fashion_primary_admin_actions
+theme: little_fashion
+region: primary_menu
+weight: -5
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  label_display: '0'
+  provider: core
+visibility: {  }

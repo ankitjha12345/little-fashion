@@ -1,0 +1,34 @@
+uuid: 2b26b573-ddab-4d2b-8185-f30260b472d0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_slideshow_items
+    - paragraphs.paragraphs_type.slideshow
+    - paragraphs.paragraphs_type.slideshow_items
+  module:
+    - entity_reference_revisions
+id: paragraph.slideshow.field_slideshow_items
+field_name: field_slideshow_items
+entity_type: paragraph
+bundle: slideshow
+label: 'Slideshow Items'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      slideshow_items: slideshow_items
+    negate: 0
+    target_bundles_drag_drop:
+      slideshow:
+        weight: 3
+        enabled: false
+      slideshow_items:
+        weight: 4
+        enabled: true
+field_type: entity_reference_revisions

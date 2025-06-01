@@ -1,0 +1,40 @@
+uuid: 7d0d6183-bf61-4f03-bbf3-853988bfc091
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_little_fashion_items
+    - paragraphs.paragraphs_type.little_fashion
+    - paragraphs.paragraphs_type.little_fashion_items
+  module:
+    - entity_reference_revisions
+id: paragraph.little_fashion.field_little_fashion_items
+field_name: field_little_fashion_items
+entity_type: paragraph
+bundle: little_fashion
+label: 'Little Fashion Items'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      little_fashion_items: little_fashion_items
+    negate: 0
+    target_bundles_drag_drop:
+      little_fashion:
+        weight: 5
+        enabled: false
+      little_fashion_items:
+        weight: 6
+        enabled: true
+      slideshow:
+        weight: 7
+        enabled: false
+      slideshow_items:
+        weight: 8
+        enabled: false
+field_type: entity_reference_revisions

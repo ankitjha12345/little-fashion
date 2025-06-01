@@ -1,0 +1,25 @@
+uuid: c497fa11-cd3b-45f5-95b4-d17e6b5f43af
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:60757aff-7671-401e-870c-4576fb2ed983'
+  module:
+    - block_content
+  theme:
+    - little_fashion
+id: little_fashion_footer
+theme: little_fashion
+region: footer
+weight: 0
+provider: null
+plugin: 'block_content:60757aff-7671-401e-870c-4576fb2ed983'
+settings:
+  id: 'block_content:60757aff-7671-401e-870c-4576fb2ed983'
+  label: Footer
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

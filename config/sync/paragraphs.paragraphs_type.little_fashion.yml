@@ -1,0 +1,10 @@
+uuid: 88b13d75-5aa0-4cd3-b00b-748b1ad6d621
+langcode: en
+status: true
+dependencies: {  }
+id: little_fashion
+label: 'Little Fashion'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

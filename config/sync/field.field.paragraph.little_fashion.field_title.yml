@@ -1,0 +1,19 @@
+uuid: 92cd9b27-1471-4b36-b1aa-80fa43e1ac1b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_title
+    - paragraphs.paragraphs_type.little_fashion
+id: paragraph.little_fashion.field_title
+field_name: field_title
+entity_type: paragraph
+bundle: little_fashion
+label: Title
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

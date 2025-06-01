@@ -1,0 +1,54 @@
+uuid: b487b58e-5745-41d1-8a16-9e7e35ba4158
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.slideshow_items.field_button
+    - field.field.paragraph.slideshow_items.field_image
+    - field.field.paragraph.slideshow_items.field_sub_title
+    - field.field.paragraph.slideshow_items.field_title
+    - image.style.thumbnail
+    - paragraphs.paragraphs_type.slideshow_items
+  module:
+    - image
+    - link
+id: paragraph.slideshow_items.default
+targetEntityType: paragraph
+bundle: slideshow_items
+mode: default
+content:
+  field_button:
+    type: link_default
+    weight: 3
+    region: content
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+  field_image:
+    type: image_image
+    weight: 2
+    region: content
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+  field_sub_title:
+    type: string_textfield
+    weight: 1
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_title:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

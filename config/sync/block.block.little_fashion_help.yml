@@ -1,0 +1,22 @@
+uuid: 495e48fe-4286-4c2f-a261-a1be992b1eb4
+langcode: en
+status: false
+dependencies:
+  module:
+    - help
+  theme:
+    - little_fashion
+_core:
+  default_config_hash: VfPFqqxfkomud5CO8DUijw85QIl9GIxh_nIxLOYESxg
+id: little_fashion_help
+theme: little_fashion
+region: primary_menu
+weight: 0
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  label_display: '0'
+  provider: help
+visibility: {  }

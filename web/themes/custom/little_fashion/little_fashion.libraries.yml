@@ -1,0 +1,17 @@
+global:
+  js:
+    js/jquery.min.js: {}
+    js/bootstrap.bundle.min.js: {}
+    js/slick.min.js: {}
+    js/jQuery.headroom.js: {}
+    js/Headroom.js: {}
+    js/custom.js: {}
+  dependencies:
+    - core/drupal
+    - core/jquery
+  css:
+    base:
+      css/base/bootstrap-icons.css: {}
+      css/base/bootstrap.min.css: {}
+      css/base/slick.css: {}
+      css/base/tooplate-little-fashion.css: {}

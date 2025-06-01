@@ -1,0 +1,20 @@
+uuid: 4446be24-579d-44da-bd15-2c20ee6fc2c1
+langcode: en
+status: false
+dependencies:
+  theme:
+    - little_fashion
+_core:
+  default_config_hash: 6aOgWsNTXjqrDm98TXSAjP6qd2nCijD1xw45MrnbK-Y
+id: little_fashion_page_title
+theme: little_fashion
+region: primary_menu
+weight: -5
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  label_display: '0'
+  provider: core
+visibility: {  }

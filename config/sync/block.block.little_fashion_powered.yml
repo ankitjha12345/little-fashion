@@ -1,0 +1,22 @@
+uuid: 5ebef45c-8b31-41c4-bced-29a25085d360
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - little_fashion
+_core:
+  default_config_hash: eYL19CLDyinGTWYQfBD1DswWzglEotE_kHnHx3AxTXM
+id: little_fashion_powered
+theme: little_fashion
+region: primary_menu
+weight: 0
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  label_display: '0'
+  provider: system
+visibility: {  }

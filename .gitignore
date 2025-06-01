@@ -20,7 +20,6 @@
 
 
 # Ignore paths that contain user-generated content.
-.ddev
 
 # Ignore multi-site test environment.
 
